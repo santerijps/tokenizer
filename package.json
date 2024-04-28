@@ -1,6 +1,6 @@
 {
   "name": "@santerijps/tokenizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple generic string tokenizer",
   "author": "Santeri Sydänmetsä",
   "license": "CC0-1.0",
@@ -10,10 +10,6 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js",
-    "./package.json": "./package.json"
-  },
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
