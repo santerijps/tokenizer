@@ -3,9 +3,9 @@
 A simple generic string tokenizer written in `TypeScript`, this module exposes the following functions and classes:
 
 ```typescript
-export function* token_iterator<T extends string>(text: string, token_spec: TokenSpecification<T>);
-export function tokenize<T extends string>(text: string, token_spec: TokenSpecification<T>);
-export class TokenStream<T extends string>;
+function* token_iterator<T extends string>(text: string, token_spec: TokenSpecification<T>);
+function tokenize<T extends string>(text: string, token_spec: TokenSpecification<T>);
+class TokenStream<T extends string>;
 ```
 
 ## Usage
