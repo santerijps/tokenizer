@@ -1,0 +1,27 @@
+{
+  "name": "@santerijps/tokenizer",
+  "version": "1.0.0",
+  "description": "A simple generic string tokenizer",
+  "author": "Santeri Sydänmetsä",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/santerijps/tokenizer"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "tokenizer",
+    "token",
+    "string"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
