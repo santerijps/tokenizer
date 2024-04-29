@@ -10,6 +10,10 @@ class TokenStream<T extends string>;
 
 ## Usage
 
+```bash
+npm i @santerijps/tokenizer
+```
+
 The API functions always take in a string as a parameter that should be tokenized, as well as a token specification that specifies the different tokens that will be matched. If the token specification is empty, then nothing will be returned, as only matched tokens are returned. This should be remembered as there might be some tokens that are "forgotten" and not checked, causing there to be characters in the string that are never handled.
 
 In the example below, `Elizabeth` and the whitespace between `"King"` and `true` is ignored completely:
